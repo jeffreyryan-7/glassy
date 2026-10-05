@@ -80,10 +80,7 @@ and squared-error loss. The feature matrix must have full column rank;
 redundant or constant columns make the model set unbounded and are rejected.
 Runtime dependencies are NumPy and scikit-learn.
 
-## Development
-
-Install test dependencies and run the tests from a repository checkout:
-
+## Development  
 ```bash
 python -m pip install -r requirements.txt
 python -m pytest -q
